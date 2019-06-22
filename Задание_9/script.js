@@ -35,3 +35,32 @@ window.addEventListener('DOMContentLoaded', function() {
 
     });
 });
+
+
+  // Скрыли все табы, кроме 1-го. А лучше через HTML скрыть все, показать только 1, экономим)
+  tabContent.forEach((item) => {
+    if(tabContent[0] !== item) {
+      item.classList.remove('show');
+      item.classList.add('hide');
+    }
+  });
+
+  info.addEventListener('click', (e) => {
+    let target = e.target;
+    let el = target.closest('div.info-header-tab');
+
+    if(el) { // Проверяем, есть ли он вообще, клацнули ли на него
+      for(let i = 0; i < tab.length; i++) {
+        // Скрыли все табы, используя тот же - один цикл
+        tabContent[i].classList.remove('show'); 
+        tabContent[i].classList.add('hide');
+        if(el === tab[i]) {
+          tabContent[i].classList.remove('hide');
+          tabContent[i].classList.add('show');
+        }
+      }
+    } 
+    else {
+      return;
+    }
+  });
