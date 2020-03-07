@@ -1,0 +1,67 @@
+#root{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.content{
+    margin: auto
+}
+.counter-wrap{
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 34px;
+}
+#counter{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 176px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+.btn-block{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-block:not(:last-of-type){
+    margin-bottom: 34px;
+}
+.btn{
+    width: 65px;
+    height: 65px;
+    border-radius: 4px;
+    display: flex;
+}
+.btn:not(:last-of-type){
+    margin-right: 38px;
+}
+.btn svg{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.25))
+}
+.btn-inc{
+    background: #089C20;
+}
+.btn-dec{
+    background: #E7AA10;
+}
+.btn-res{
+    background: #CF1C1C;
+}
+.btn-upl{
+    background: #9B0F9E;
+}
+.btn-dnl{
+    background: #30D9CF;
+}

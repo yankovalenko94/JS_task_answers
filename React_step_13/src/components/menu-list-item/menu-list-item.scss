@@ -1,0 +1,42 @@
+.menu {
+    &__item {
+        width: 350px;
+        min-height: 400px;
+        background-color: #fff;
+        box-shadow: 5px 5px 45px rgba(256,256,256,.1);
+        border-radius: 8px;
+        padding: 20px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+    &__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    &__img {
+        width: calc(100% + 40px);
+        transform: translateX(-20px);
+        height: 240px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    &__category, &__price {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__btn {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: #29a745;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

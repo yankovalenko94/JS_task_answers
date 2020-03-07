@@ -1,0 +1,19 @@
+.header {
+    background-color: rgba(0,0,0, .5);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 50px;
+    &__link {
+        display: flex;
+        margin-right: 40px;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+    }
+    &__cart {
+        width: 20px;
+        margin-right: 10px;
+    }
+}

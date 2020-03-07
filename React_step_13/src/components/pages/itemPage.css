@@ -1,0 +1,38 @@
+.item_page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.item_block{
+    margin: auto;
+    width: 700px;
+    height: 450px;
+    background-color: rgba(84, 84, 84, 0.8);
+}
+
+
+.menu__item{
+    position: relative;
+}
+.menu__category_Img{
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pizza {
+    background-image: url('http://www-static.dreambox.com/wp-content/uploads/2015/02/Prize-Icon-Pizza.png');
+    width: 70px;
+    height: 70px;
+}
+.salads {
+    background-image: url('https://images.vexels.com/media/users/3/141142/isolated/preview/d5ce613797b1fd08bdf3e038bfa1d0b2-colorful-salad-cartoon-by-vexels.png')
+}
+.meat{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/food-drinks-v3/512/Steak-512.png');
+}

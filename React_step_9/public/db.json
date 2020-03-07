@@ -1,0 +1,42 @@
+{
+    "fruits": [
+        {
+            "name": "pineapple",
+            "fruit_category": "tropic",
+            "country": "Indonesia",
+            "img_url" : "https://images-cdn.azureedge.net/azure/lulu-resources/fc211e9f-cffc-4ad2-88fb-99bc9faf96e1/Images/ProductImages/Source/294892-001.jpg"
+        },
+        {
+            "name": "apple",
+            "fruit_category": "common",
+            "country": "Austria",
+            "img_url" : "https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg"
+        },
+        {
+            "name": "plum",
+            "fruit_category": "common",
+            "country": "Serbia",
+            "img_url" : "https://www.kauffmansfruitfarm.com/static/images/fruit/plums/gallery/1.jpg"
+        }
+    ],
+    "vegetables": [
+        {
+            "name": "onion",
+            "vegetable_category": "common",
+            "country": "France",
+            "img_url" : "https://organicbiz.ca/wp-content/uploads/2017/06/onion-red-507683944-Thinkstock.jpg"
+        },
+        {
+            "name": "cabbage",
+            "vegetable_category": "tropical",
+            "country": "China",
+            "img_url" : "https://cdn1.medicalnewstoday.com/content/images/articles/284/284823/one-big-cabbage.jpg"
+        },
+        {
+            "name": "chili peppers",
+            "vegetable_category": "tropical",
+            "country": "Peru",
+            "img_url" : "https://www.circleofdocs.com/wp-content/uploads/2016/09/Chili-peppers.jpg"
+        }
+    ]
+}
