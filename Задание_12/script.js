@@ -7,9 +7,10 @@ class Options {
 		this.textAlign = textAlign;
 	}
 
-	createDiv() {
+	createDiv(text) {
 		let elem = document.createElement('div');
-		document.body.appendChild(elem);
+        document.body.appendChild(elem);
+        elem.textContent = text;
 		let param = `height:${this.height}px; width:${this.width}px; background-color:${this.bg}; font-size:${this.fontSize}px; text-align:${this.textAlign}`;
 		elem.style.cssText = param;
 	}
@@ -17,4 +18,4 @@ class Options {
 
 const item = new Options(300, 350, "red", 14, "center");
 
-item.createDiv();
+item.createDiv('bla bla');
