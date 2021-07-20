@@ -305,7 +305,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
         slides[slideIndex - 1].style.display = 'block'; // Как ваша самостоятельная работа - переписать на использование классов show/hide
         
-        if (slides.length < 10) {
+        if (slideIndex < 10) {
             current.textContent =  `0${slideIndex}`;
         } else {
             current.textContent =  slideIndex;
