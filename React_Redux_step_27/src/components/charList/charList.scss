@@ -32,6 +32,13 @@
             box-shadow: 0 5px 20px $main-color;
             transform: translateY(-8px);
         }
+        &-appear {
+            opacity: 0;
+        }
+        &-active-appear {
+            opacity: 1;
+            transition: opacity 500ms ease-in;
+        }
         &-enter {
             opacity: 0;
         }

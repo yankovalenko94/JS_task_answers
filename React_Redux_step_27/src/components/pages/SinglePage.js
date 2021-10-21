@@ -5,17 +5,14 @@ import useMarvelService from '../../services/MarvelService';
 import AppBanner from "../appBanner/AppBanner";
 import setContent from '../../utils/setContent';
 
-// Хотелось бы вынести функцию по загрузке данных как отдельный аргумент
-// Но тогда мы потеряем связь со стэйтами загрузки и ошибки
-// А если вынесем их все в App.js - то они будут одни на все страницы
-
 const SinglePage = ({Component, dataType}) => {
         const {id} = useParams();
         const [data, setData] = useState(null);
         const {getComic, getCharacter, clearError, process, setProcess} = useMarvelService();
 
         useEffect(() => {
-            updateData()
+            updateData();
+            // eslint-disable-next-line
         }, [id])
 
         const updateData = () => {
@@ -27,6 +24,9 @@ const SinglePage = ({Component, dataType}) => {
                     break;
                 case 'character':
                     getCharacter(id).then(onDataLoaded).then(() => setProcess('confirmed'));
+                    break;
+                default:
+                    return;
             }
         }
 
