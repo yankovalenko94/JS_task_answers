@@ -67,20 +67,7 @@
 * **React_step_30** - Разделены функции-редьюсеры и применена функция createSelector
 * **React_step_31** - Применен усилитель store (enhancer)
 * **React_step_32** - Применен собственный middleware
-
-### Старая редакция курса "Библиотека React + Redux"
-
-* **React_step_1** - практика ES6+ рефакторинга
-* **React_step_2** - применяем стили к нашему приложению
-* **React_step_3** - работа со state/props и проверка на пустой объект
-* **React_step_4** - кастомные события и иммутабильность
-* **React_step_5** - работа с формами
-* **React_step_6** - новый проект и все методы для работы с GOT API
-* **React_step_7** - кнопка переключения случайного персонажа
-* **React_step_8** - работа с жизненным циклом компонентов
-* **React_step_9** - паттерны React и маршрутизация
-* **React_step_10** - приложение-счетчик Redux, но без React
-* **React_step_11** - приложение-счетчик React + Redux
-* **React_step_12** - Приложение ресторана Часть 1
-* **React_step_13** - Приложение ресторана Часть 2
-* **React_step_14** - Приложение ресторана Часть 3
+* **React_step_33** - Применен thunk-middleware и созданы комбинированные action creator’ы 
+* **React_step_34** - Применены функции configureStore, createAction и createReducer
+* **React_step_35** - Созданы срезы героев и фильтров
+* **React_step_36** - Созданы АС при помощи createAsyncThunk

@@ -1,0 +1,16 @@
+.app {
+    height: 100vh;
+    overflow-y: scroll;
+    background: url('../../assets/hero_bg.jpg') center / cover no-repeat;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 560px 440px;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-top: 50px;
+    &__interactive {
+        padding-left: 40px;
+    }
+}
