@@ -22,7 +22,7 @@ const shoppingMallData = {
     budget: 50000
 }
 
-function isBudgetEnought(data) {
+function isBudgetEnough(data) {
     let square = 0;
     let volume = 0;
 
@@ -39,4 +39,4 @@ function isBudgetEnought(data) {
     }
 }
 
-isBudgetEnought(shoppingMallData);
+isBudgetEnough(shoppingMallData);
