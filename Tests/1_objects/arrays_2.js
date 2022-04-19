@@ -27,7 +27,7 @@ function availableCurr(arr, missingCurr) {
 
     arr.forEach(function(curr, i) {
         if (curr !== missingCurr) {
-            str += `${i + 1} - ${curr}\n`;
+            str += `${curr}\n`;
         }
     });
 
@@ -36,7 +36,7 @@ function availableCurr(arr, missingCurr) {
     //     if (arr[i] === missingCurr) {
     //         continue;
     //     }
-    //     str += `${i + 1} - ${arr[i]}\n`;
+    //     str += `${arr[i]}\n`;
     // }
 
     return str;
