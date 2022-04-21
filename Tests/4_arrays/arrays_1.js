@@ -38,9 +38,17 @@ const tranformedArray = setFilmsIds(films);
 
 // При срабатывании every на первом фильме он натыкается на id = 0;
 // 0 - это неправда в логическом ключе, поэтому и весь метод возвращает false
-// Чтобы этого не происходило, создают всякие способы, например,
-// превращение в строку
+// Учитывайте этот момент
 function checkFilms(arr) {
-    return arr.every(film => film.id + '' ? true : false)
+    return arr.every(film => film.id || film.id === 0 ? true : false)
 }
+
+// Еще короче, так как условие все равне вернет true или false:
+// function checkFilms(arr) {
+//     return arr.every(film => film.id || film.id === 0)
+// }
+
+// Максимально коротко, но еще читаемо:
+// const checkFilms = (arr) => arr.every(film => film.id || film.id === 0)
+
 checkFilms(tranformedArray);
