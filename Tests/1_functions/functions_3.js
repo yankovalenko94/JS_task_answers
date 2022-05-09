@@ -24,6 +24,24 @@ function getTimeFromMinutes(minutesTotal) {
             hoursStr = 'часов';
     }
 
+    // Вариант для проверки любых чисел, так как верхний будет работать только до 10 часов
+    // Тут мы превращаем число в строку и ориентируемся на последний символ
+    // switch (hours.toString().slice(-1)) {
+    //     case '0': 
+    //         hoursStr = 'часов';
+    //         break;
+    //     case '1':
+    //         hoursStr = 'час';
+    //         break;
+    //     case '2':
+    //     case '3':
+    //     case '4':
+    //         hoursStr = 'часа';
+    //         break;
+    //     default:
+    //         hoursStr = 'часов';
+    // }
+
     return `Это ${hours} ${hoursStr} и ${minutes} минут`;
 }
 
