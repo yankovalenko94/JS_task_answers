@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "json-server": "^0.16.1"
+    "json-server": "^0.17.1"
   }
 }
