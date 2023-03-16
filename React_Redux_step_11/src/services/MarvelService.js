@@ -24,7 +24,7 @@ class MarvelService {
     }
 
     _transformCharacter = (char) => {
-        const limitChars = 100
+        const limitChars = 210
         return {
             name: char.name,
             description: !char.description
